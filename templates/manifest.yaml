@@ -146,7 +146,7 @@ metadata:
 spec:
   serviceRef:
     name: frontend 
-    port: 8080
+    port: 80
   targetGroupARN: {{ .Values.tgb.arn }}
   targetType: ip        
     
